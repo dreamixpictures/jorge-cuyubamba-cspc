@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:white;
+}
+body.floatingMenu #topNavWrapper { position:relative; }
+#topNavWrapper img#paddingImg { display:none !important; } 
+#topNavWrapper { margin-bottom:0px; }
+
+#topNavWrapper.shadow,body.floatingMenu #topNavWrapper {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+body.floatingMenu #bannerWrapper { margin-top:0px; }
+#sitemapWrapper { page-break-before:always; }
